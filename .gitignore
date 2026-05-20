@@ -1,0 +1,39 @@
+# Unreal build/output folders inside the project
+AiProgramming/Binaries/
+AiProgramming/Build/
+AiProgramming/Intermediate/
+AiProgramming/Saved/
+AiProgramming/DerivedDataCache/
+AiProgramming/FileOpenOrder/
+
+# Also catch these folders anywhere, just in case
+**/Binaries/
+**/Build/
+**/Intermediate/
+**/Saved/
+**/DerivedDataCache/
+**/FileOpenOrder/
+
+# Visual Studio / IDE
+.vs/
+.vscode/
+*.sln
+*.user
+*.suo
+*.opensdf
+
+# Compiled/generated files
+*.pdb
+*.exp
+*.lib
+*.obj
+*.dll
+*.exe
+
+# Packaged builds
+*.pak
+*.sig
+
+# OS junk
+.DS_Store
+Thumbs.db
